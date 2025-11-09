@@ -18,11 +18,9 @@ public class EmployeeImpl implements EmployeeDao {
 			pstmt.setString(3,emp.getEmail());
 			pstmt.setString(4, emp.getAddress());
 			row=pstmt.executeUpdate();
+      System.out.print("welcome");
 			System.out.print("welcome");
 			System.out.print("welcome");
-			System.out.print("welcome");
-			
-
 		}
 		catch(Exception e) {
 			e.printStackTrace();
