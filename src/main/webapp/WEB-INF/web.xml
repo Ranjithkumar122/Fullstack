@@ -1,0 +1,10 @@
+<web-app>
+  <servlet>
+  	<servlet-name>student</servlet-name>
+  	<servlet-class>com.tap.servelet.EmployeeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>student</servlet-name>
+  <url-pattern>/Student</url-pattern>
+  </servlet-mapping>
+</web-app>
